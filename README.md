@@ -1,19 +1,16 @@
-# 🧠 How LLMs Work — Code Examples
+# How LLMs Work — Book Source Code
 
-Runnable code examples from the book **"How LLMs Work: From Zero to Your Own Transformer"** by Andrey Sapunov — the **English edition**.
+Source code for the book **"How LLMs Work: From Zero to Your Own Transformer"** by Andrey Sapunov — the **English edition**.
 
-> 📖 This repository holds *only* the small, self-contained code listings from the book.
-> The full mini-GPT model and the RAG project live in a separate repository:
-> [github.com/asaptf/swift-language-models](https://github.com/asaptf/swift-language-models).
-> The Russian-edition listings are at [github.com/asaptf/llm-book-code-ru](https://github.com/asaptf/llm-book-code-ru).
+📚 **Get the book on Amazon:** [amazon.com/dp/B0H7BPJLHC](https://www.amazon.com/dp/B0H7BPJLHC)
+
+This repository contains the small, self-contained code listings from the book — runnable Swift examples that illustrate each chapter's ideas. The full mini-GPT model and the RAG project live in a separate repository: [github.com/asaptf/swift-language-models](https://github.com/asaptf/swift-language-models). The Russian-edition listings are at [github.com/asaptf/llm-book-code-ru](https://github.com/asaptf/llm-book-code-ru).
 
 ---
 
 ## What's inside
 
-Each file corresponds to a chapter of the book and illustrates one idea. Every example is a
-**self-contained pure-Swift file with no dependencies** — no MLX, no GPU, no extra packages required.
-The aim is clarity, not performance: you can read each file top to bottom and run it in one line.
+Each file corresponds to a chapter of the book and illustrates one idea. Every example is a **self-contained pure-Swift file with no dependencies** — no MLX, no GPU, no extra packages required. The aim is clarity, not performance: you can read each file top to bottom and run it in one line.
 
 | File | Chapter | What it shows |
 |------|---------|---------------|
@@ -41,8 +38,7 @@ The aim is clarity, not performance: you can read each file top to bottom and ru
 
 ## Requirements
 
-Just the **Swift compiler** — nothing else. These examples are cross-platform and run anywhere Swift
-is installed (macOS, Linux, Windows). They need neither MLX nor a graphics card.
+Just the **Swift compiler** — nothing else. These examples are cross-platform and run anywhere Swift is installed (macOS, Linux, Windows). They need neither MLX nor a graphics card.
 
 **macOS:**
 
@@ -63,19 +59,14 @@ Every file runs in a single line:
 swift ch05_softmax_loss.swift
 ```
 
-Each file begins with a comment explaining what it does, and most print a short, readable trace of
-the computation so you can see the idea in action. Several examples use a seeded random generator, so
-their output is reproducible between runs.
+Each file begins with a comment explaining what it does, and most print a short, readable trace of the computation so you can see the idea in action. Several examples use a seeded random generator, so their output is reproducible between runs.
 
 ---
 
 ## Going further
 
-- **The full mini-GPT** (Part V of the book) is built on Apple's **MLX** framework and requires a Mac
-  on Apple Silicon. It lives in [swift-language-models](https://github.com/asaptf/swift-language-models)
-  under `mini-gpt/`.
-- **The RAG project** (Chapter 20) combines the BM25 search you see in `ch20_bm25.swift` with a small
-  local model; it's in the same repository under `swift-rag/`.
+- **The full mini-GPT** (Part V of the book) is built on Apple's **MLX** framework and requires a Mac on Apple Silicon. It lives in [swift-language-models](https://github.com/asaptf/swift-language-models) under `mini-gpt/`.
+- **The RAG project** (Chapter 20) combines the BM25 search you see in `ch20_bm25.swift` with a small local model; it's in the same repository under `swift-rag/`.
 
 See **Appendix D** of the book for the full setup guide.
 
@@ -83,10 +74,9 @@ See **Appendix D** of the book for the full setup guide.
 
 ## About the book
 
-The book explains how large language models actually work — from "what even is this thing?" all the
-way to the line of code where your own small model generates its first coherent text. The main text
-is written in plain language with analogies and pictures; engineering asides go deeper with formulas
-and code. The code examples in this repository are those asides made runnable.
+The book explains how large language models actually work — from "what even is this thing?" all the way to the line of code where your own small model generates its first coherent text. The main text is written in plain language with analogies and pictures; engineering asides go deeper with formulas and code. The source code in this repository is those asides made runnable.
+
+**[Buy on Amazon →](https://www.amazon.com/dp/B0H7BPJLHC)**
 
 *Code examples in **Swift** (pure Swift and MLX). Edition 1.0.*
 
